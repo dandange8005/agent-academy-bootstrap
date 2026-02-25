@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Agent Academy logo">
+  <defs>
+    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="168" height="168" rx="36" fill="url(#g)" />
+  <path d="M57 118L100 50l43 68h-20l-23-37-23 37H57z" fill="#ffffff" />
+  <circle cx="100" cy="126" r="10" fill="#ffffff" />
+</svg>

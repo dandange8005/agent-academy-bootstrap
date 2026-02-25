@@ -19,3 +19,7 @@ npm run docs:preview
 ## Deploy
 
 GitHub Pages deployment is configured in `.github/workflows/deploy-vitepress.yml`.
+
+## Contributing
+
+For content update, preview, and publishing instructions, see `docs/CONTRIBUTING.md`.

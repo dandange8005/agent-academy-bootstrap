@@ -1,0 +1,64 @@
+:root {
+  --vp-font-family-base: "Manrope", "Segoe UI", sans-serif;
+  --vp-font-family-mono: "IBM Plex Mono", "SFMono-Regular", monospace;
+  --vp-c-brand-1: #0f766e;
+  --vp-c-brand-2: #0d9488;
+  --vp-c-brand-3: #14b8a6;
+  --vp-c-brand-soft: rgba(20, 184, 166, 0.16);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(115deg, #0f766e 20%, #ea580c 80%);
+  --vp-home-hero-image-background-image: radial-gradient(circle at 40% 35%, rgba(15, 118, 110, 0.24), rgba(234, 88, 12, 0.18));
+  --vp-home-hero-image-filter: blur(58px);
+}
+
+.VPContent {
+  background:
+    radial-gradient(1200px 500px at 85% -10%, rgba(15, 118, 110, 0.14), transparent 60%),
+    radial-gradient(1000px 420px at 5% 5%, rgba(234, 88, 12, 0.1), transparent 60%);
+}
+
+.VPHomeHero .text {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.VPHomeHero .tagline {
+  max-width: 44rem;
+  font-size: 1.1rem;
+}
+
+.VPButton {
+  border-radius: 999px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.VPButton:hover {
+  transform: translateY(-1px);
+}
+
+.VPFeature {
+  border-radius: 16px;
+  border: 1px solid rgba(15, 118, 110, 0.15);
+  background: linear-gradient(165deg, rgba(255, 255, 255, 0.7), rgba(240, 253, 250, 0.9));
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.VPFeature .title {
+  color: #0f172a;
+}
+
+.vp-doc h2 {
+  margin-top: 2rem;
+  border-top: 1px solid rgba(15, 118, 110, 0.14);
+  padding-top: 1rem;
+}
+
+.vp-doc a {
+  text-underline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .VPHomeHero .tagline {
+    font-size: 1rem;
+  }
+}
