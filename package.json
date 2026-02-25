@@ -1,0 +1,14 @@
+{
+  "name": "agent-academy-bootstrap",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "mermaid": "^11.12.3",
+    "vitepress": "^2.0.0-alpha.12"
+  }
+}
